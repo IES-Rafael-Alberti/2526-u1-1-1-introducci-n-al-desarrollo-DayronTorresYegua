@@ -24,3 +24,71 @@
 - Java (JVM)
 
     - Se genera un codigo intermedio llamado bytecode el cual se carga en la JVM la cuál gestiona la memoria automaticamente y traduce el bytecode a instrucciones nativas que ejecuta el procesador.
+
+
+## 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
+
+**Preguntas:**
+
+- Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código objeto)? ¿Qué nombres tomaron estos archivos?
+
+
+
+- Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable.
+
+
+
+- Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.
+
+**Respuestas:**
+
+- 
+
+- 
+
+- 
+
+## 5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales
+**Preguntas:**
+
+- Describe el proceso de generación de código intermedio (bytecode) en el lenguaje que utilizaste que emplea una máquina virtual (por ejemplo, Java o C#).
+
+- Explica qué rol juega la máquina virtual en la ejecución del código y cómo difiere de la ejecución directa en un sistema operativo como ocurre con los lenguajes compilados e interpretados.
+
+**Respuestas:**
+
+- 
+
+- 
+
+## 5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación
+**Preguntas:**
+
+- Clasifica los tres lenguajes utilizados (interpretado, compilado y en máquina virtual) según su:
+
+    - Modo de ejecución (interpretado vs compilado vs máquina virtual).
+    - Nivel de abstracción (alto nivel vs bajo nivel).
+    - Paradigma de programación (imperativo, orientado a objetos, funcional,...).
+
+- Explica qué características de estos lenguajes influyeron en su clasificación. Es decir, ahonde en las razones por las que cada lenguaje pertenece a una categoría específica.
+
+**Respuestas:**
+
+- 
+
+- 
+
+## 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo
+
+**Preguntas:**
+
+- Para cada uno de los tres lenguajes (interpretado, compilado y en máquina virtual), describe las herramientas que utilizaste en el proceso de desarrollo:
+    - Sistema operativo (¿en qué sistema ejecutaste el programa?).
+    - Editor de texto o IDE (¿dónde escribiste el código?).
+    - Compilador o intérprete (¿cómo se transformó o ejecutó el código?).
+    - Depurador (si lo usaste, ¿cómo lo empleaste para encontrar errores?).
+    - Sistema de gestión de versiones (si lo usaste, ¿cómo guardaste las versiones del código?).
+    - Otras herramientas Añade alguna herramienta más a la lista. ¿Cómo te ayudó en el desarrollo?
+
+**Respuestas:**
+
