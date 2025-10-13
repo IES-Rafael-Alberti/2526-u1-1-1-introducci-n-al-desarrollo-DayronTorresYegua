@@ -38,11 +38,11 @@
 
 **Respuestas:**
 
-- 
+- Primero se escribe escribe el codigo fuente, despues mediante un compilador el codigo fuente es traducido a codigo objeto, luego de esto enlazamos los archivos de codigo objeto para generar un ejecutable, y una vez hecho esto ya podremos ejecutar el programa.
 
-- 
+- En los lenguaje interpretados en vez de generar archivos de codigo objeto o ejecutable lo que se hace es que el codigo se carga en la RAM y este luego es procesado linea por linea
 
-- 
+- Primero escribimos el codigo fuente de nuestro programa, luego este codigo se compila pero en vez de generar un codigo maquina especifico para un plataforma lo que hace es que genera un codigo intermedio llamado bytecode, para ejecutar en nuestro ordenador lo que pasa es que la JVM toma este bytecode y lo interpretea traduciendolo a lenguaje maquina para que el procesador lo pueda entender
 
 ## 5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales
 **Preguntas:**
