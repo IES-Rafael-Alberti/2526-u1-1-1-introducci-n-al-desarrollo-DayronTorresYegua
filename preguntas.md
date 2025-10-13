@@ -32,11 +32,7 @@
 
 - Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código objeto)? ¿Qué nombres tomaron estos archivos?
 
-
-
 - Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable.
-
-
 
 - Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.
 
@@ -92,3 +88,8 @@
 
 **Respuestas:**
 
+- El sistema operativo usado ha sido Ubuntu
+- He hecho uso de Visual Studio Code
+- Para compilar el codigo he hecho uso de gcc en la terminal, y para el interpetre he hecho uso de las extensiones de Python par VSCode para que este pueda ejecutar el codigo
+- El depurador de VSCode se puede usar para ver que valores toman las variables y usar puntos de ruptura en partes del codigo para que cuando llegue a ese parte ir poco a poco viendo los valores.
+- Usando git he podido guardar versiones del codigo haciendo uso de repositorios donde guardar el codigo y commits para subir los cambios
