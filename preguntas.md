@@ -53,9 +53,9 @@
 
 **Respuestas:**
 
-- 
+- Primero escribimos el codigo fuente, luego debemos de compilarlo para generar el bytecode usando javac "nombredelarchivo.java", esto almacenara nuestro bytecode en una archivo .class. Una vez hayamos hecho todo esto ya podremos ejecutar nustro archivo haciendo java "nombredelarchivo"
 
-- 
+- El rol de la JVM es traducir el bytecode en lenguaje maquina especifico dependiendo de la plataforma en la que estemos y mostrar el resultado en pantalla.
 
 ## 5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación
 **Preguntas:**
