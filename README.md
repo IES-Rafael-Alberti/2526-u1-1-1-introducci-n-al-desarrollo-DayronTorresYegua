@@ -29,14 +29,16 @@ La actividad consiste en el desarrollo de un programa sencillo en diferentes tip
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
    - Lenguaje de programacion C, version gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+   - Lenguaje de Java
    - Visual studio code haciendo uso de el paquete de extension de c para este mismo
+   - IntelijIdea Ultimate para Java
 
 2. **Pasos para Compilar el Código:**
 - En C
    ```bash
    gcc calcular_edad.c -o calcular_edad
    ```
-- EN Java
+- En Java
 
    ```bash
    javac CalcularEdad.java
@@ -56,7 +58,17 @@ La actividad consiste en el desarrollo de un programa sencillo en diferentes tip
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+
+- Para la estructura del codigo se ha decidido usar una la cual divide los diferente archivos del project en los siguiente:
+
+   - Carpeta de assets donde se guardarán las imagenes a utilizar
+   - Carpeta src donde estarán los diferentes archivos que contengan codigo de nuestro projecto
+   - Carpeta de test donde estarán los archivos dedicados al testing en caso de hacerlos
+   - Los demas archivos están en la raiz del proyecto como pueden ser el archivos de preguntas el cual contiene las preguntas a realizar de la practica o el readme donde se detallará todo el contenido de la practica.
+
+   - Imagen de estrcutura del projecto:
+
+      ![EstructuraProjecto](assets/EstructuraProjecto.png)   
 
 ### Código Fuente
 
@@ -85,7 +97,5 @@ https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-Day
 
    
 ## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
 
-## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+- La conclusiones sacadas de esta practica son que al haber trabajado con diferentes tipos de lenguaje podemos darnos cuenta de las diferencias que tiene cada uno, como pueden ser la sintaxis, enfoques que tiene paradigmas a los que van dirigidos etc... Cada uno de ellos tienen usos diferentes formas de ejecucion diferentes, esta practica a servido para conocer los diferentes tipos de lenguajes que nos podemos encontrar.
