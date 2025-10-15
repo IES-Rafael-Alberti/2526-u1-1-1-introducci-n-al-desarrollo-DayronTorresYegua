@@ -105,7 +105,7 @@
 **Respuestas:**
 
 - El sistema operativo usado ha sido Ubuntu
-- He hecho uso de Visual Studio Code
+- He hecho uso de Visual Studio Code y de  IntelijIdea Ultimate
 - Para compilar el codigo he hecho uso de gcc en la terminal, y para el interpetre he hecho uso de las extensiones de Python par VSCode para que este pueda ejecutar el codigo
 - El depurador de VSCode se puede usar para ver que valores toman las variables y usar puntos de ruptura en partes del codigo para que cuando llegue a ese parte ir poco a poco viendo los valores.
 - Usando git he podido guardar versiones del codigo haciendo uso de repositorios donde guardar el codigo y commits para subir los cambios
