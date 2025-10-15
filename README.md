@@ -59,14 +59,26 @@ La actividad consiste en el desarrollo de un programa sencillo en diferentes tip
 [Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
+
+- Codigo fuente python
+
+https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-DayronTorresYegua/blob/940f1d755a653963d0e685e5bbe50190a21aa769/src/calcular_edad.py#L1-L25
+
+- Codigo fuente C
+
+https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-DayronTorresYegua/blob/d0a445be81e6de2a259473480e00feefde4ad108/src/calcular_edad.c#L1-L38
+
+- Codigo fuente Java
+
+https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-DayronTorresYegua/blob/d0a445be81e6de2a259473480e00feefde4ad108/src/CalcularEdad.java#L1-L31
 
 ### Ejemplos de Ejecución
 - **Entrada 1:** 
 
    ![Ejemplo-entrada](assets/ejemploEntrada.png)
 
-- **Salida Esperada 1:** 
+- **Salida Esperada 1:**
+
    ![Ejemplo-salida](assets/EjemploSalida.png)
    
    - La salida es asi debido a que al tomar los valores de entrada el programa calcula la edad que tienes comparando tu fecha de nacimiento con la fecha al momento de ejecutar el programa
