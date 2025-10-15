@@ -70,9 +70,25 @@
 
 **Respuestas:**
 
-- 
+- Modo de ejecucion:
+    - Python es interpretado
+    - Java es de maquina virtual
+    - C es compilado
 
-- 
+- Nivel de abstracción:
+    - Python y Java son lenguajes de alto nivel 
+    - C es un lenguaje de bajo nivel 
+    
+- Paradigma de programación:
+    - Python es imperativo
+    - Java es orientado a objetos
+    - C es funcional
+
+- Python es un lenguaje interpretado debido a que es leido linea por linea por un interprete y este lo ejecuta al instante sin necesidad de compilar codigo, por su nivel de abstraccion es un lenguaje de alto nivel ya que es más facil de leer por las personas y es imperativo porque en este lenguaje el programador da instrucciones al codigo sobre como el programa se debe ejecutar
+
+- Java genera bytecode para que despues en la JVM este se ejecute en diferentes plataformas, al igual que python es un lenguaje de alto nivel, es un paradigma orientado a objetos que se refiere a que hace uso de instancias de clases donde los objetos encapsulan datos y comportamientos
+
+- En C el codigo fuente que es escrito por el programador es compilado a codigo maquina de una plataforma antes de ejecutarlo cuando se compila se genera un ejecutable con el que podemos ejecutar el programa, es un lenguaje de bajo nivel ya que es un lenguaje más cercacno al lenguaje máquina y es funcional ya que su enfoque en vez de dar instrucciones sobre como cambiar al estado lo que hace es que la funciones toman entradas y dan salidas sin cambiar el estado original.
 
 ## 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo
 
