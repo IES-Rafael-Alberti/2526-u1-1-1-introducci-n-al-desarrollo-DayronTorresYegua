@@ -12,37 +12,46 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** 2526-u1-1-1
+- **Módulo:** EDES
+- **Unidad de Trabajo:** UD 1 - Introducción al desarrollo de software
+
+- **Fecha de Creación:** 11/10/2025
+- **Fecha de Entrega:** 15/10/2025
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Dayron Torres Yegua
+  - **Correo electrónico:** dtoryeg519@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** DTY
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+La actividad consiste en el desarrollo de un programa sencillo en diferentes tipos de lenguaje y asi poder visualizar las diferencias en el codigo y a la hora de ejecutarlo ya que son 3 tipos de lenguaje diferente.
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - Lenguaje de programacion C, version gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+   - Visual studio code haciendo uso de el paquete de extension de c para este mismo
 
 2. **Pasos para Compilar el Código:**
+- En C
    ```bash
-   [Comando para compilar el código]
+   gcc calcular_edad.c -o calcular_edad
+   ```
+- EN Java
+
+   ```bash
+   javac CalcularEdad.java
    ```
 
 3. **Pasos para Ejecutar el Código:**
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
+- En C
 
-4. **Ejecución de Pruebas:**
    ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
+   ./calcular_edad
+   ```
+- En Java 
+
+   ```bash
+   java CalcularEdad
    ```
 
 ## Desarrollo de la Actividad
@@ -53,28 +62,18 @@ Apoyate en los siguientes recursos para realizar la práctica:
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
 
 ### Ejemplos de Ejecución
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+- **Entrada 1:** 
 
-### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
+   ![Ejemplo-entrada](assets/ejemploEntrada.png)
 
-## Documentación Adicional
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
-- **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
+- **Salida Esperada 1:** 
+   ![Ejemplo-salida](assets/EjemploSalida.png)
+   
+   - La salida es asi debido a que al tomar los valores de entrada el programa calcula la edad que tienes comparando tu fecha de nacimiento con la fecha al momento de ejecutar el programa
 
+   
 ## Conclusiones
 [Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
 
 ## Referencias y Fuentes
 [Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
-
-### Notas Adicionales:
-1. **Nombres de Archivos y Repositorios:**
-   - Asegúrate de que el nombre del archivo o repositorio siga la estructura definida: `XXX-idActividad-Iniciales`.
-2. **Permisos:**
-   - Verifica que el profesor tenga los permisos necesarios para acceder al repositorio o documento.
-3. **Formato:**
-   - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
-4. **Compilación y Ejecución:**
-   - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
