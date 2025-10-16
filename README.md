@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/F4zkDqTW)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20998083&assignment_repo_type=AssignmentRepo)
 # Práctica 2: Introducción al desarrollo. Ponlo en práctica.
 
 Apoyate en los siguientes recursos para realizar la práctica:
@@ -10,69 +12,119 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** 2526-u1-1-1
+- **Módulo:** EDES
+- **Unidad de Trabajo:** UD 1 - Introducción al desarrollo de software
+
+- **Fecha de Creación:** 11/10/2025
+- **Fecha de Entrega:** 15/10/2025
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Dayron Torres Yegua
+  - **Correo electrónico:** dtoryeg519@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** DTY
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+- La actividad consiste en el desarrollo de un programa sencillo en diferentes tipos de lenguaje y asi poder visualizar las diferencias en el codigo y a la hora de ejecutarlo ya que son 3 tipos de lenguaje diferente.
+
+- Tambien se responderán a unas preguntas relacionadas con la practica a realizar
+
+   [Enlace a preguntas a responder de la práctica](https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-DayronTorresYegua/blob/master/preguntas.md)
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - Lenguaje de programacion C, version gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+   - Lenguaje de Java
+   - Lenguaje de python
+   - Visual studio code haciendo uso de el paquete de extension de c y la de python
+   - IntelijIdea Ultimate para Java
+   - O en vez de los IDE hacer uso de terminal
 
 2. **Pasos para Compilar el Código:**
+- En C
    ```bash
-   [Comando para compilar el código]
+   gcc calcular_edad.c -o calcular_edad
    ```
+- En Java
+
+   ```bash
+   javac CalcularEdad.java
+   ```
+- En python no se tiene que compilar
 
 3. **Pasos para Ejecutar el Código:**
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
+- En C
 
-4. **Ejecución de Pruebas:**
    ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
+   ./calcular_edad
+   ```
+- En Java 
+
+   ```bash
+   java CalcularEdad
+   ```
+- En Python
+
+   ```bash
+   python3 calcular_edad.py
    ```
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+
+- Para la estructura del codigo se ha decidido usar una la cual divide los diferente archivos del project en los siguiente:
+
+   - Carpeta de assets donde se guardarán las imagenes a utilizar
+   - Carpeta src donde estarán los diferentes archivos que contengan codigo de nuestro projecto
+   - Carpeta de test donde estarán los archivos dedicados al testing en caso de hacerlos
+   - Los demas archivos están en la raiz del proyecto como pueden ser el archivos de preguntas el cual contiene las preguntas a realizar de la practica o el readme donde se detallará todo el contenido de la practica.
+
+   - Imagen de estrcutura del projecto:
+
+      ![EstructuraProjecto](assets/EstructuraProjecto.png)   
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
+
+- Codigo fuente python
+
+https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-DayronTorresYegua/blob/940f1d755a653963d0e685e5bbe50190a21aa769/src/calcular_edad.py#L1-L25
+
+- Codigo fuente C
+
+https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-DayronTorresYegua/blob/d0a445be81e6de2a259473480e00feefde4ad108/src/calcular_edad.c#L1-L38
+
+- Codigo fuente Java
+
+https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-DayronTorresYegua/blob/d0a445be81e6de2a259473480e00feefde4ad108/src/CalcularEdad.java#L1-L31
 
 ### Ejemplos de Ejecución
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+- **Entrada 1:** 
 
-### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
+   ![Ejemplo-entrada](assets/ejemploEntrada.png)
 
-## Documentación Adicional
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
-- **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
+- **Salida Esperada 1:**
 
+   ![Ejemplo-salida](assets/EjemploSalida.png)
+
+
+- **Entrada 2:** 
+
+   ![Ejemplo-entrada](assets/EjemploEntrada2.png)
+
+- **Salida Esperada 2:**
+
+   ![Ejemplo-salida](assets/EjemploSalidaJava.png)
+   
+
+- **Entrada 3:** 
+
+   ![Ejemplo-entrada](assets/EjemploEntrada3.png)
+
+- **Salida Esperada 3:**
+
+   ![Ejemplo-salida](assets/EjemploSalidaPython.png)
+   - La salida es asi debido a que al tomar los valores de entrada el programa calcula la edad que tienes comparando tu fecha de nacimiento con la fecha al momento de ejecutar el programa
+
+   
 ## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
 
-## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
-
-### Notas Adicionales:
-1. **Nombres de Archivos y Repositorios:**
-   - Asegúrate de que el nombre del archivo o repositorio siga la estructura definida: `XXX-idActividad-Iniciales`.
-2. **Permisos:**
-   - Verifica que el profesor tenga los permisos necesarios para acceder al repositorio o documento.
-3. **Formato:**
-   - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
-4. **Compilación y Ejecución:**
-   - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+- La conclusiones sacadas de esta practica son que al haber trabajado con diferentes tipos de lenguaje podemos darnos cuenta de las diferencias que tiene cada uno, como pueden ser la sintaxis, enfoques que tiene paradigmas a los que van dirigidos etc... Cada uno de ellos tienen usos diferentes formas de ejecucion diferentes, esta practica a servido para conocer los diferentes tipos de lenguajes que nos podemos encontrar.
