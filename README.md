@@ -24,14 +24,20 @@ Apoyate en los siguientes recursos para realizar la práctica:
   - **Iniciales del Alumno/Grupo:** DTY
 
 ## Descripción de la Actividad
-La actividad consiste en el desarrollo de un programa sencillo en diferentes tipos de lenguaje y asi poder visualizar las diferencias en el codigo y a la hora de ejecutarlo ya que son 3 tipos de lenguaje diferente.
+- La actividad consiste en el desarrollo de un programa sencillo en diferentes tipos de lenguaje y asi poder visualizar las diferencias en el codigo y a la hora de ejecutarlo ya que son 3 tipos de lenguaje diferente.
+
+- Tambien se responderán a unas preguntas relacionadas con la practica a realizar
+
+   [Enlace a preguntas a responder de la práctica](https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-DayronTorresYegua/blob/master/preguntas.md)
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
    - Lenguaje de programacion C, version gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
    - Lenguaje de Java
-   - Visual studio code haciendo uso de el paquete de extension de c para este mismo
+   - Lenguaje de python
+   - Visual studio code haciendo uso de el paquete de extension de c y la de python
    - IntelijIdea Ultimate para Java
+   - O en vez de los IDE hacer uso de terminal
 
 2. **Pasos para Compilar el Código:**
 - En C
@@ -43,6 +49,7 @@ La actividad consiste en el desarrollo de un programa sencillo en diferentes tip
    ```bash
    javac CalcularEdad.java
    ```
+- En python no se tiene que compilar
 
 3. **Pasos para Ejecutar el Código:**
 - En C
@@ -54,6 +61,11 @@ La actividad consiste en el desarrollo de un programa sencillo en diferentes tip
 
    ```bash
    java CalcularEdad
+   ```
+- En Python
+
+   ```bash
+   python3 calcular_edad.py
    ```
 
 ## Desarrollo de la Actividad
@@ -92,7 +104,24 @@ https://github.com/IES-Rafael-Alberti/2526-u1-1-1-introducci-n-al-desarrollo-Day
 - **Salida Esperada 1:**
 
    ![Ejemplo-salida](assets/EjemploSalida.png)
+
+
+- **Entrada 2:** 
+
+   ![Ejemplo-entrada](assets/EjemploEntrada2.png)
+
+- **Salida Esperada 2:**
+
+   ![Ejemplo-salida](assets/EjemploSalidaJava.png)
    
+
+- **Entrada 3:** 
+
+   ![Ejemplo-entrada](assets/EjemploEntrada3.png)
+
+- **Salida Esperada 3:**
+
+   ![Ejemplo-salida](assets/EjemploSalidaPython.png)
    - La salida es asi debido a que al tomar los valores de entrada el programa calcula la edad que tienes comparando tu fecha de nacimiento con la fecha al momento de ejecutar el programa
 
    
